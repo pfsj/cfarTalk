@@ -29,107 +29,55 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2 align="left"> Beyond Risk Factorology: </h2>
-					<h4> Leveraging Network Analysis and Data Science for HIV Prevention</h4>
+					<h2 align="left"> Decoding disparities: </h2>
+					<h3> Network analysis and data science for HIV prevention</h3>
 					<div style="padding-top: 4cm"><font size = '7'>Patrick Janulis</font></div>
-				<aside class="notes">
-        		<font size="2">So, first of all, I want to thank everyone for being here and for invitation talk today. I'm going to be talking to to discuss how we can better leverage quantitative methods in HIV prevention. And I'll be focused on two related goals. First I'll be discussing how we can leverage cutting edge quantitative methods in social network analysis for some novel insights regarding racial disparities in HIV. Second, I'll be discussing the tools that allow us to make these insights and how we're moving forward with generalizing these tools to provide similar assistance to researchers examining these questions but also hopefully modify them so they also promote HIV prevention more directly in the hands of folks on the ground in places like local public health authorities and their community partners.
-
-        		In some ways, I'll be jumping around a lot in this talk. First discussing what we can learn from studying social sexual networks, then discussing the tools that allow us to do this work at all, and finally, looking forward to where we can go now that we have these tools.
-        		</font>
-    			</aside>
 						<!--  class="fragment current-visible" data-fragment-index="0" <text class="fragment">Elimination<text></h4> -->
-				</section>	
-				<section> 
-					<h2> Statistical Modeling </h2>
-					<img class="plain" src="images/IRT.png" width="50%" height="50%"  style="border-style: none">
-				</section> 
-				<section> 
-					<h2> Statistical Modeling </h2>
-					<img class="plain" width="50%" height="50%" src="images/multilevelSEM.png" style="border-style: none">
-					<img class="plain" src="images/multilevelSEM2.png" style="border-style: none">
-				</section> 
-				<section>
-					<h3>Social Network Analysis and Data Science</h3>
 				</section>
-				<section> 
+				<section fullscreen-img="images/TCCFAR1.png" fullscreen-size="contain">
+				</section>
+				<section fullscreen-img="images/TCCFAR2.png" fullscreen-size="contain">
+				</section>
+				<section fullscreen-img="images/TCCFAR3.png" fullscreen-size="contain">
+				</section>
+				<section>
 					<h3> Modern Approaches to HIV Prevention</h3>
-					<aside class="notes">
-	        			<font size="2"> Even without the immediate discovery of a vaccine, it's an exciting time for HIV prevention with a lot of new tools and approaches that provide great promise. One of these approaches is pre-exposure prophylaxis or, more commonly PrEP. PrEP is a daily pill that, when taken regularly, substantially lowers the likelihood of the virus taking hold when exposed to it.</font>
-	    			</aside>
 				</section>
 				<section fullscreen-img="images/prep4Love.png" fullscreen-size="contain">
-					<aside class="notes">
-	        			<font size="2"> One of these approaches is pre-exposure prophylaxis or, more commonly PrEP. PrEP is a daily pill that, when taken regularly, substnatially lowers the likelihood of the virus taking hold when exposed to it.</font>
-	    			</aside>
 				</section>
 				<section fullscreen-img="images/treatmentAsPrevention.png" fullscreen-size="contain">
-					<aside class="notes">
-		        		<font size="2"> Similarly, treatment as prevention also provides great promise. This approach involves treating all HIV positive individuals as soon as possible in effort to lower the amont of virus in their blood, commonly known as viral load. When the viral load is supressed it also greatly lowers the likelihood of forward tranmission. At the macro level, modeling and some emperical evidence suggests that the propogation of a virus can be stopped if the overall ammount of virus circulating in a community falls below a certain threshold.</font>
-	    			</aside>
 				</section>
 				<section>
 					<h3>Current Challenges in HIV Prevention</h3>
-						<aside class="notes">
-	        				<font size="2"> So, there clearly are exciting new techniques to promote HIV prevention and with these tools alone the CDC estimates that new infections could be reduced by 70%. Yet, serious challenges remain in achieving this goal. One of the main challenges our group focuses on is the continuing epidemic of HIV among young men who have sex with men, or YMSM.</font>
-	    				</aside>
 				</section>
 				<section data-transition="none slide-in" data-transition-speed="fast">
 					<img class="plain" src="images/AgeDisparities.png" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> As you can see in this figure, for the majority of MSM, we've either seen relatively stable incidence rates
-	        				over the last 5 years, or even maybe slight declines. </font>
-	    				</aside>
 				</section>
 				<section data-transition="none slide-out" data-transition-speed="fast">
 					<img class="plain" src="images/AgeDisparities-2.png" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> For YMSM, however, this is not the case. In fact, despite modern advances in HIV prevention, YMSM are one of the only groups in the united states currently witenessing an increase in incidence of HIV </font>
-	    				</aside>
 				</section>
 				<section data-transition="none slide-in" data-transition-speed="fast">
 				<img class="plain" src="images/WejnertCROI.jpg" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> Futhermore, the burden of HIV among YMSM is also not evenly distributed </font>
-	    				</aside>
 				</section>
 				<section data-transition="none slide-out" data-transition-speed="fast">
 				<img class="plain" src="images/WejnertCROI2.jpg" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> In fact, YMSM see larger racial disparities than other groups of MSM </font>
-	    				</aside>
 				</section>
 				<section>
 				<img class="plain" src="images/CROI_2016.jpg" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> This has lead to the stunning estimate that lifetime risk for an HIV diagnosis is now 1:2 for African American MSM, 1:4 for Hispanic MSM, while it's 1:11 for white MSM </font>
-	    				</aside>
 				</section>
 				<section>
 					<h3>What causes racial disparities in HIV?</h3>
 					<img class="plain" src="images/WejnerCROI2a.png" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> These rather shocking statistics have bread a lot of research examining the causes of these disparities. Yet, this work does not indicate that black MSM engage in higher levels of risk behavior. In fact, as these recent numbers from 2014 indicate on this slide , black MSM often have lower levels of risk behavior</font>
-	    				</aside>
 				</section>
 				<section>
 					<h3>What causes racial disparities in HIV?</h3>
 					<img class="plain" src="images/Millett2007.png" style="border-style: none" />
-						<aside class="notes">
-	        				<font size="2"> Futhermore, this finding has been replicated and known for quite some time with a meta-analysis from almost ten years ago finding individual risk behavior did not explain racial disaprities among black MSM. So then, what can explain racial disparities then? Given my research focus, perhaps you're not surprised if I tell you that network structure  has been offered as a potential explentaiton, and more specifically, the structure of sexual networks</font>
-	    				</aside>
 				</section>
 				<section>
 					<h3>Network Structure</h3>
-						<aside class="notes">
-	        				<font size="2"> NODES AND EDGES </font>
-	    				</aside>
 				</section>
 				<section>
 					<h3 align="center">Network Structure as Driver of Racial Disparities</h3>
-						<aside class="notes">
-	        				<font size="2"> Perhaps one of the most well studies network feature implicated in the spread of disease is concurrency. Concurrency indicates if an individual had overlaping sexual partenrs. That is, for example, if you had sex with PARTNER A on monday, sex with PARTNER B on wednesday, and then had sex with PARTNER A again on Friday. Both in modeling and limited real life studies this has been shown to spread disease more quickly than serial monogamy. That is differenty than haveing sex with three different partners on monday, wednesday, and friday. On the dynamic network animation here, concurrency is represented by having a tie to more than a singgle individual at any one time. The general problem of concurrency is that it creates larger connected components of the network which leads disease to spread more quickly through the network. Concurrency is implicated in disparities because if certain groups show higher levels of concurrency then that could be a source of increase disparities, even when engaging in the same level of sex and protective behaviors such as condom use </font>
-	    				</aside>
 					<table>
 							<tr align="center">
 								<td align="center">Concurrency</td>
@@ -141,9 +89,6 @@
 				</section>
 				<section>
 					<h3 align="center">Network Structure as Driver of Racial Disparities</h3>
-						<aside class="notes">
-	        				<font size="2"> Very closely related to concurrency is the network charactertic: 'degree'. Degree represnts the number of sex partners an individual has within a certain period of time. Due to the difficulty of measuring longitudinal networks we often examine them cross sectionally (e.g., including sex partners in the past 7 day). In this way, degree is analagous to a non-dynamic cross sectional view of concurrency where concurrency is now represented by any indiovidual that has more than a single tie in the graph. This toy example also is a great representation of the fundamental reason why an individuals risk behavior may not be the best metric for risk of infection. Each of these 5 individuals are not behaving particularly risky because they only have a single sexual partner in the past 7 days. However, their risk of infection also depends on the their partners behavior, and in this case, their partner increases their own risk by having a degree of 5 with multiple concurrent parters. Again, degree may be implicated in racial disparities if it varies across different racial groups </font>
-	    				</aside>
 					<table>
 							<tr align="center">
 								<td align="center">Degree</td>
@@ -155,9 +100,6 @@
 				</section>
 				<section>
 					<h3 align="center">Network Structure as Driver of Racial Disparities</h3>
-						<aside class="notes">
-	        				<font size="2"> Finally, homophily is the last network characteristic. Homophily represents the idea that birds of a feather flock together. That is, we may be more or less likely to have sex partners that are like ourselves. As you migth imagine, if there is high levels of homophily, it tends to reinforce the existing prevelance of a disease within groups because it is diffuclt for a disease to enter/exit certain groups given that they are more likely to have sex with those in the same group relative to those in a different group. While homophily is not necessarily implicated in the original cause of racial disparities, it might explain how, given the high levels of racial disparities in HIV, how these disparities are maintained over time </font>
-	    				</aside>
 					<table>
 							<tr align="center">
 								<td align="center">Homophily</td>
@@ -167,24 +109,11 @@
 							</tr>
 					</table>
 				</section>
-				<section data-transition="none slide-in" data-transition-speed="fast">
-				<h3>Are there racial differences in <font class="fragment strike">concurrency</font> among YMSM?</h3>
-					<aside class="notes">
-						    <font size="2"> So, the main two network features we're going to be examining today are concurrency and homophily. However, we're be using cross sectional data so we can't really model concurrency. </font>
-						</aside>
-				</section>
-				<section data-transition="none slide-out" data-transition-speed="fast">
-				<h3>Are there racial differences in monogamy among YMSM?</h3>
-					<aside class="notes">
-						    <font size="2">What we can do is examine degree. So we'll be specifically phrasing are question surrounding monogamy, or the tendency to have a single sexual partner differ across race and ethnic groups. If a tendency is greater among one group then this would suggest a protective factor in that group relative to other</font>
-						</aside>
+				<section>
+				<h3>Are there racial differences in concurrency among YMSM?</h3>
 				</section>
 				<section>
 					<img class="plain" src="images/Krivitsky.png" style="border-style: none"></img>
-					<aside class="notes">
-						    <font size="2">Furthermore, I'm not phrasing this in this manner by coincidence. In fact, this is the exact way that Krivistky and Morris recently examine the impact of concurrency in a nationally representative sample of prodominently heterosexual individuals
-						    	They found that the tendency for monogamy was weaker in Black Male and Female particiapnts relative to their white peers and that this lead to lrager connected components. But there are problems.. I won't get it into. The main focus of the talk today really is there a difference in monogamy in our sample of YMSM</font>
-						</aside>
 				</section>
 				<section>
 					<table>
@@ -192,7 +121,7 @@
 								<th align="center" colspan="2"><img class="plain" src="images/radar.png" style="border-style: none"></img></th>
 							</tr>
 							<tr>
-								<th  style="vertical-align: top">									
+								<th  style="vertical-align: top">
 									<ul>
 											<li  type="square"><font size="5">PI: Brian Mustanski </font><font size = '3'>(U01DA036939)</font></li>
 											<li  type="square"><font size="5">K-NECT: Michelle Birkett </font><font size='3'>(K08DA037825)</font></li>
@@ -209,10 +138,10 @@
 											<ul>
 												<font size="3">
 												<li>Past 7 day sexual partners</li>
-												<li>Does monogamy differ across race/ethnicity</li>
+												<li>Does concurrency differ across race/ethnicity</li>
 											</ul>
 									</ul></th>
-								<td  style="vertical-align: middle">	
+								<td  style="vertical-align: middle">
 									<img class="plain" src="images/multilevel.png" style="border-style: none">
 								</td>
 							</tr>
@@ -220,29 +149,19 @@
 				</section>
 				<section>
 					<h3> Demographics</h3>
-					<img class="plain" src="images/demographics2.png" style="border-style: none"></img>
+					<img class="plain" src="images/Table1.png" style="border-style: none"></img>
 				</section>
 				<section>
 					<h2>Modeling Social Network Data</h2>
-						<aside class="notes">
-	        				<font size="2"> So, before we dive into the results, we need to figure out how to estimate a model that can examine our hypothesis regarding these network features. Network data has a number of features that complicate it's analysis compared to traditiona social/behavioral data. Foremost among them is that network data is, by defenition non-independence. Today I'll be discussing a class of models called exponential random graph models or commonly called ERGM</font>
-	    				</aside>
 				</section>
 				<section>
 					<h3>Exponential Random Graph Models (ERGMs)</h3>
-						<aside class="notes">
-	        				<font size="2">ERGM are a class of models that focus on predicting which individuals have ties. In that sense, they are essentially just more sophisticated logistic models comparing predictors of nodes that have ties and those that don't have ties. Similarly, the results are relatively straight forward and similar to logistic regression where an estimate is provided for each parameter indicating if the parameter has a an association with the likelihood of a tie being present. However, these models differ from logistic regression in that they not only allow thigns like if nodes with a given characteristic are more likely to have ties (we call these exogenous because they are external to the structure itself) but ERGMs also let you use the structure of the network itself (i.e., endogenous characteristics) to predict if there is a tie. A common example of this is examing if we share a friend, are two nodes share a connection to a third node, are they more or less likely to have a tie themselves. </font>
-	    				</aside>
 				</section>
 				<section>
 					<table>
 						<tr>
 							<th style="vertical-align: middle" align="center" colspan="2">
-								<h3>How ERGMs Work</h3>
-									<aside class="notes">
-				        				<font size="2">Although a major oversimplification of the process, ERGM estimation can be simplified into 4 rough steps. First, based on our observed network, we assume a network of exactly that size. So, if we're analyzing a classroom network with 20 children, we assume a network of 20 nodes. Next, we decide what parameters to include in the model. As a simple example let's assume we onyl want to extimate two parameters. The number of connections in the network (this is essentially an interecept parameter) and the level of racial homophily. Then based on those parameters we randomly simulate graphs across the parameters space. Given these sampled simulations, we adjust the parameter estimates to most accurately represent our observed data. Monte Carlo Markov Chain (MCMC) </font>
-				    				</aside><th>
-					<!-- Need to create a table for this section and put D3 figures in the right column of the table -->
+								<h3>How ERGMs Work</h3><th>
 						<tr>
 							<td style="vertical-align: middle" align="center">
 							<ol>
@@ -258,9 +177,6 @@
 					</table>
 				</section>
 				<section>
-						<aside class="notes">
-	        				<font size="2">To make this a little more tangible. On the left side here we have the observed network. As you can see, there is strong homophily by the color of the nodes with many more connections within nodes of the same color versus those of different colors. On the right side we have a random network with the same number of nodes and ties, as well as roughly the same number of nodes of each color. However, the edges are randomly assigned. By simulated many iterations of this 'random' network we can do two things. First, we can modify how we're simulating it to try and make it more closely match the observed network and we can also provide an estimate of how likely the observed parameter is relative to random samples of the same network with other parameters held constant. In this case, when I click on the figure we get a new random network with the edge parameter held constant so we can compare the level of homophily in a random network with the same number/type of nodes and number of edges relative to the level of homophily in our observed network. Obviously, it is very unlikely that our network that we observed had the level of homophily on chance given how dissimilar the random graphs look from our observed network. There are many other reasons that the graph looks disimmilar but I won't go into those right now. Hopefully, this basic example demonstrates how by sampling random graphs we can estimate parameters for the observed network </font>
-	    				</aside>
 						<table align="center">
 							<tr class="noborder" align="center">
 								<td align="center"><h3>Observed Network</h3></td>
@@ -274,14 +190,8 @@
 				</section>
 				<section>
 					<h3>ERGMs for Ego-centric Network Data</h3>
-						<aside class="notes">
-						    <font size="2">So, if you believe me that ERGMs are an appropriate means to estimate parameters of networks. We have one final challenge that we have to overcome to apply it to the data I'll be discussing today. And this is that ERGMs are designed to assess networks that we completely observe. However, this is rarely possible for sexual networks given that we don't measure the behavior of all people in the network, we merely observe a sample of individual's sexual partners. These personal views of one's network ties is called an 'ego centric' network with the focal individual known as the 'ego' and the partners being known as 'alters' </font>
-						</aside>
 				</section>
 				<section>
-						<aside class="notes">
-						    <font size="2">So, on this slide we can see the same whole network on the left with nodes that we're going to sample being slightly larger than the other nodes. This same graph is represneted on the right assuming the sampled individuals have a perfect perception of the network ties between their partners. Without getting bogged down in the details of how how to use the ERGM approach for sampled egocentric data. The basic idea is that we do the same type of simulation of random graphs to estimate the parameters but instead of having the true observed network, we try and create a 'true' network using the distribution of information provided by these sampled egocentric network. For example, how many connections do green nodes have on average, how many of those connections are to other green nodes, etc. Using this information we estimate how these statistics would manifest in whole network of a given size. We can then examine how closely the converged model represents the distirbution of our egocentric data, most commonly by examining the degree distribution and how closely it fits our data (i.e., how many people have 0 partners, how many have 1 partner, etc.) </font>
-						</aside>
 					<h3 align="center">Whole versus Egocentric Data</h3>
 					<table>
 							<tr align="center">
@@ -295,10 +205,7 @@
 					</table>
 				</section>
 				<section>
-				<h3>Are there racial differences in monogamy among YMSM? </h3>
-					<aside class="notes">
-						    <font size="2"> So before we jump into the results it's good just to remind you that the main question here is, does the tendency for monogamy differ across different racial and ethnic groups and what are the implications of this difference to structural features of the network </font>
-						</aside>
+				<h3>Are there racial differences in concurrency among YMSM? </h3>
 				</section>
 				<section>
 					<table>
@@ -313,82 +220,57 @@
 						</tr>
 						<tr class="spaceUnder">
 							<td>Model 3</td>
-							<td><font size = "5">= ... + Abstinence (Degree 0) + Monogamy (Degree 1 - Constrained)</font></td>
+							<td><font size = "5">= ... + Concurrency (Constrained)</font></td>
 						</tr>
 						<tr class="spaceUnder">
 							<td>Model 4</td>
-							<td><font size = "5">= ... + Abstinence (Degree 0) + Monogamy (Degree 1 - Unconstrained)</font></td>
+							<td><font size = "5">= ... + Concurrency (Unconstrained)</font></td>
 						</tr>
 						<tr class="spaceUnder">
 							<td colspan="2"><font size = "4">Note. Covariates in all models: age, HIV status, and HIV homophily</td>
 						</tr>
 					</table>
 				</section>
-				<section data-transition="none slide-in" data-transition-speed="fast" fullscreen-size="contain">
-						<aside class="notes">
-						    <font size="2"> So I'm going to jump right into the results. Again, remember, the outcome of this model is simply telling us what is associated with the likelihood of a tie. In this case we have four models that slowly build up in complexity and I'll be walking through each of these models and their group of parameters. In this table bolded values are statistically significant from zero  </font>
-						</aside>
-					<table style="vertical-align: top">
-							<tr>
-								<td align="center">Model 1</td>
-							</tr>
-							<tr  valign="middle">
-								<td align = "center"><img height = "60%" width = "60%" class="plain" src="images/Janulis.png" style="border-style: none"></img></td>
-							</tr>
-					</table>
-				</section>
 				<section data-transition="none slide" data-transition-speed="fast" fullscreen-size="contain">
-						<aside class="notes">
-						    <font size="2"> The first model is a simple one with really just two informative parameters. First we have this group of parameters that indicate if, relative to Black YMSM, other groups were more or less likely to have a tie. What this really means is, are there mean differences in the number of ties between the different racial/ethnic groups. In model 1 we see that White folks are the only ones with significant differences but because we can see all the models you may notice all groups show this tendency in the later models </font>
-						</aside>
 					<table style="vertical-align: top">
 							<tr>
 								<td align="center">Model 1</td>
 							</tr>
 							<tr valign="middle">
-								<td align = "center"><img height = "60%" width = "60%" class="plain" src="images/Janulis1Race.png" style="border-style: none"></img></td>
+								<td align = "center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results.png" style="border-style: none"></img></td>
 							</tr>
 					</table>
 				</section>
 				<section data-transition="none slide-out" data-transition-speed="fast" fullscreen-size="contain">
-						<aside class="notes">
-						    <font size="2"> The next parameter is overall racial homophily. Again, this parameter indicates if two nodes are the same race ethnicity, are they more likely to be connected. In model 1 we get a single parameter estimate for all groups and we see that there is a moderate  </font>
-						</aside>
 					<table style="vertical-align: top">
 							<tr>
 								<td align="center">Model 1</td>
 							</tr>
 							<tr  valign="middle">
-								<td align = "center"><img height = "60%" width = "60%" class="plain" src="images/Janulis1Homophily.png" style="border-style: none"></img></td>
+								<td align = "center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results1.png" style="border-style: none"></img></td>
 							</tr>
 					</table>
 				</section>
 				<section>
-						<aside class="notes">
-						    <font size="2"> It's also important that we examine overall model fit. The main way to judge model fit for egocentric ERGMs are through comparing the degree distribution of many simulated models to that of the original sampled data to see if we're accurately recreating this characteristic. Degree is particularly important because a graph that does not accurately represent the degree distribution is very unlikely to look like the original graph in any other respect. So, on the right we can see the distribution of the each node degree in the original and the model. For ease of viewing, I've highlighted the original distribution values with blue circles and the estimated distribution in red. As we can see tis is not a tremendously good fitting model. So, we would obviously not be satisfied if this were our final model. </font>
-						</aside>
 				<section>
 					<table style="vertical-align: top">
 							<tr>
 								<td align="center">Model 1</td>
 							</tr>
 							<tr valign="middle">
-								<td align = "center" style="vertical-align: middle"><img height = "65%" width = "65%" class="plain" src="images/model1gof-2.png" style="border-style: none"></img></td>
+								<td align = "center" style="vertical-align: middle"><img height = "65%" width = "65%" class="plain" src="images/Model1Gof.png" style="border-style: none"></img></td>
 							</tr>
 					</table>
-				</section> 
+				</section>
 				</section>
 				<section>
-						<aside class="notes">
-						    <font size="2"> Comparing model 1 and 2 we see that for model 2 we've expanded our estimates of homophily to be specific to each race/ethnicity group. We also see that all groups except Multiple/Other reported statistically significant estimates for homophily with Black YMSM in our sample reporting the highest level of homophily. In direct comparisons using z-test however, this is only significantly different from Latinos and not statistically significantly greater than White homophily. Nonetheless, this would still indicate that high levels of homophily may at least partially explain the persistence of racial disparities of HIV among Black MSM. However, our model still does not fit our observed data very well with the same pattern of misfit persisting in model 2 </font>
-						</aside>
 					<table>
 							<tr align="center">
 								<td align="center">Model 2</td>
 							</tr>
 							<tr>
-								<td  align="center"><img height = "60%" width = "60%" class="plain" src="images/Janulis1-2.png" style="border-style: none"></img></td>
-							</tr>				
+								<td  align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results2.png" style="border-style: none"></img></td>
+							</tr>
 					</table>
 				</section>
 				<section>
@@ -397,21 +279,8 @@
 								<td align="center">Model 2</td>
 							</tr>
 							<tr>
-								<td  align="center" style="vertical-align: middle"><img height = "65%" width = "65%"  class="plain" src="images/model2gof-2.png" style="border-style: none"></img></td>
-							</tr>				
-					</table>
-				</section>
-				<section>
-						<aside class="notes">
-						    <font size="2"> Moving onto Model 3. This model now includes parameter estimates for the tendency of having no sexual partners in the past 7 days as well as having a single sexual partner, or monogamy. In both cases, we see that, controlling for our other factors the network showed a tendency for having higher levels of no sexual partner and monogamy than we would expect from a random graph with similar other features. Here we also see that our model substantially improves in fit with </font>
-						</aside>
-					<table>
-							<tr align="center">
-								<td align="center">Model 3</td>
+								<td  align="center" style="vertical-align: middle"><img height = "65%" width = "65%"  class="plain" src="images/Model2Gof.png" style="border-style: none"></img></td>
 							</tr>
-							<tr>
-								<td align="center"><img height = "60%" width = "60%" class="plain" src="images/Janulis2-3.png" style="border-style: none"></img></td>
-							</tr>				
 					</table>
 				</section>
 				<section>
@@ -420,31 +289,38 @@
 								<td align="center">Model 3</td>
 							</tr>
 							<tr>
-								<td align="center" style="vertical-align: middle"><img  height = "65%" width = "65%" class="plain" src="images/model3gof-2.png" style="border-style: none"></img></td>
-							</tr>				
-					</table>
-				</section>
-				<section>
-						<aside class="notes">
-						    <font size="2"> </font>
-						</aside>
-					<table>
-							<tr align="center">
-								<td align="center">Model 4</td>
+								<td align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results3.png" style="border-style: none"></img></td>
 							</tr>
-							<tr>
-								<td align="center"><img height = "60%" width = "60%" class="plain" src="images/Janulis3-4.png" style="border-style: none"></img></td>
-							</tr>				
 					</table>
 				</section>
 				<section>
 					<table>
 							<tr align="center">
+								<td align="center">Model 3</td>
+							</tr>
+							<tr>
+								<td align="center" style="vertical-align: middle"><img  height = "65%" width = "65%" class="plain" src="images/Model3Gof.png" style="border-style: none"></img></td>
+							</tr>
+					</table>
+				</section>
+				<section>
+					<table>
+							<tr align="center">
 								<td align="center">Model 4</td>
 							</tr>
 							<tr>
-								<td align="center" style="vertical-align: middle"><img height = "65%" width = "65%" class="plain" src="images/model4gof-2.png" style="border-style: none"></img></td>
-							</tr>				
+								<td align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results4.png" style="border-style: none"></img></td>
+							</tr>
+					</table>
+				</section>
+				<section>
+					<table>
+							<tr align="center">
+								<td align="center">Model 4</td>
+							</tr>
+							<tr>
+								<td align="center" style="vertical-align: middle"><img height = "65%" width = "65%" class="plain" src="images/Model4Gof.png" style="border-style: none"></img></td>
+							</tr>
 					</table>
 				</section>
 				<section data-transition="none slide-in" data-transition-speed="fast" fullscreen-size="contain">
@@ -453,8 +329,8 @@
 								<td align="center">Model 3</td>
 							</tr>
 							<tr>
-								<td align="center"><img height = "60%" width = "60%" class="plain" src="images/JanulisModel3Blur.png" style="border-style: none"></img></td>
-							</tr>				
+								<td align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results3All.png" style="border-style: none"></img></td>
+							</tr>
 					</table>
 				</section>
 				<section data-transition="none slide" data-transition-speed="fast" fullscreen-size="contain">
@@ -463,8 +339,8 @@
 								<td align="center">Model 3</td>
 							</tr>
 							<tr>
-								<td align="center"><img height = "60%" width = "60%" class="plain" src="images/JanulisModel3Blur-2.png" style="border-style: none"></img></td>
-							</tr>				
+								<td align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results3-1.png" style="border-style: none"></img></td>
+							</tr>
 					</table>
 				</section>
 				<section data-transition="none slide" data-transition-speed="fast" fullscreen-size="contain">
@@ -473,8 +349,8 @@
 								<td align="center">Model 3</td>
 							</tr>
 							<tr>
-								<td align="center"><img height = "60%" width = "60%" class="plain" src="images/JanulisModel3Blur-3.png" style="border-style: none"></img></td>
-							</tr>				
+								<td align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results3-2.png" style="border-style: none"></img></td>
+							</tr>
 					</table>
 				</section>
 				<section data-transition="none slide-out" data-transition-speed="fast" fullscreen-size="contain">
@@ -483,37 +359,31 @@
 								<td align="center">Model 3</td>
 							</tr>
 							<tr>
-								<td align="center"><img height = "60%" width = "60%" class="plain" src="images/JanulisModel3Blur-4.png" style="border-style: none"></img></td>
-							</tr>				
+								<td align="center"><img style="vertical-align: top" height = "45%" width = "60%" class="plain" src="images/Results3-3.png" style="border-style: none"></img></td>
+							</tr>
 					</table>
 				</section>
 				<section>
 					<img class="plain" height='45%' width='45%' src="images/simulated1.png" style="border-style: none"></img>
 					<img class="plain" height='45%' width='45%' src="images/simulated2.png" style="border-style: none"></img>
 				</section>
-						<aside class="notes">
-						    <font size="2">What does this mean? If we had used a normal modeling approach such as multilevel modeling, this is where we would have stopped. However, because we're using ERGMs, we can use this model to simulate a large number of networks and examine various features of the different racial/ethnic groups within those models to more accurately try and understand the meaning of these parameters for infection risk </font>
-						</aside>
 				<section data-transition="none slide-in" data-transition-speed="fast">
-						<img class="plain" src="images/outcomes1new.png" style="border-style: none"></img>
+						<img class="plain" src="images/Metrics1.png" style="border-style: none"></img>
 				</section>
 				<section data-transition="none slide-out" data-transition-speed="fast">
-						<aside class="notes">
-						    <font size="2"> @@@</font>
-						</aside>
-						<img class="plain" src="images/outcomes1-2new.png" style="border-style: none"></img>
+						<img class="plain" src="images/Metrics1-2.png" style="border-style: none"></img>
 				</section>
 				<section data-transition="none slide-in" data-transition-speed="fast">
-						<aside class="notes">
-						    <font size="2">@@@ </font>
-						</aside>
-						<img class="plain" src="images/outcomes2new.png" style="border-style: none"></img>
+						<img class="plain" src="images/Metrics2.png" style="border-style: none"></img>
 				</section>
 				<section data-transition="none slide-out" data-transition-speed="fast">
-						<aside class="notes">
-						    <font size="2"> @@@</font>
-						</aside>
-						<img class="plain" src="images/outcomes2-2new.png" style="border-style: none"></img>
+						<img class="plain" src="images/Metrics2-2.png" style="border-style: none"></img>
+				</section>
+				<section data-transition="none slide-in" data-transition-speed="fast">
+						<img class="plain" src="images/Metrics3.png" style="border-style: none"></img>
+				</section>
+				<section data-transition="none slide-out" data-transition-speed="fast">
+						<img class="plain" src="images/Metrics3-2.png" style="border-style: none"></img>
 				</section>
 				<section>
 						<table align="center">
@@ -523,7 +393,7 @@
 							<tr class="noborder" align="center">
 								<td style="vertical-align: middle">
 								 	<ul>
-											<li  type="square"><font size="6">No evidence of differences in concurrency/monogamy  by race</font></li>
+											<li  type="square"><font size="6">Little evidence of differences in concurrency  by race</font></li>
 											<li  type="square"><font size="6">Network disparities more closely tied to prevalence</font></li>
 											<li  type="square"><font size="6">Many network explanations unexplored</font></li>
 									<ul>
@@ -533,9 +403,6 @@
    				</section>
 				<section>
 					<h3> Tools to Capture, Process, and Store Complex Data </h3>
-						<aside class="notes">
-						    <font size="2"> I want to leave plenty of time for questions so I'm going to cut this last part short but I did want to briefly mention the various tools we've implemented as part of the RADAR project in order to be able to manage the measurement, processing, and storage of the network data that we capture as part of this study </font>
-						</aside>
 				</section>
 				<section>
 					<h3> Traditional Network Capture </h3>
@@ -543,36 +410,26 @@
 						<td style="vertical-align: middle"><img class="plain" src="images/alterInfo2.png" style="border-style: none" /></td>
 						<td style="vertical-align: middle"><img class="plain" src="images/berniePAS.png" style="border-style: none" /></td>
 					</table>
-						<aside class="notes">
-						    <font size="2"> I want to leave plenty of time for questions so I'm going to cut this last part short but I did want to briefly mention the various tools we've implemented as part of the RADAR project in order to be able to manage the measurement, processing, and storage of the network data that we capture as part of this study. However, it's important to emphasis how terrible the previous methods were to collect this data. Here are some pictures of @@@ </font>
-						</aside>
 				</section>
-				<section fullscreen-img="images/netCanvasWebsite.png" fullscreen-size="contain"></section>
+				<section fullscreen-img="images/networkCanvasWebsiteNew.png" fullscreen-size="contain"></section>
 				<section fullscreen-img="images/netCanvas_sexGen.png" fullscreen-size="contain"></section>
 				<section fullscreen-img="images/netCanvas_edgeGen.png" fullscreen-size="contain"></section>
 				<section fullscreen-img="images/netCanvas_sexSelect.png" fullscreen-size="contain"></section>
 				<section fullscreen-img="images/netCanvas_ordinalBin.png" fullscreen-size="contain"></section>
 				<section fullscreen-img="images/netCanvas_catBin.png" fullscreen-size="contain"></section>
 				<section fullscreen-img="images/netCanvas_map.png" fullscreen-size="contain"></section>
-				<section fullscreen-img="images/neo4j.png" fullscreen-size="contain"></section>
 				<section>
 					<img class="plain" height="35%" width="35%" src="images/lync1.png" style="border-style: none">
 					<img class="plain" height="35%" width="35%" src="images/lync2.png" style="border-style: none">
-					<p>PI: Birkett; R03DA033906</p>
-				</section>
-				<section>
-				<img class="plain" src="images/entityResolution.png" style="border-style: none"></img>
-				
 				</section>
 				<section fullscreen-img="images/macronetwork.png" fullscreen-size="contain">
 				</section>
-				<section> 
-					<h2> Next Steps </h2> 
-					<img class="plain" src="images/funded.png" style="border-style: none"></img>
+				<section>
+					<h2> Next Steps </h2>
+					<img class="plain" src="images/funded-2.png" style="border-style: none"></img>
 				</section>
 				<section>
-					<h2> Thank you!!! </h2>
-					<img class="plain" src="images/thanks.png" style="border-style: none"></img>
+					<img class="plain" height = "60%" width = "60%" src="images/thanks-2.png" style="border-style: none"></img>
 				</section>
 				</div>
 		</div>
