@@ -1,17 +1,17 @@
 {
   "nodes":[
-    {"name":"Person 0","group":1,"x":250,"y":250},
+    {"name":"Person 0","group":5,"x":250,"y":250},
     {"name":"Person 1","group":1,"x":250,"y":250},
-    {"name":"Person 2","group":3,"x":250,"y":250},
+    {"name":"Person 2","group":1,"x":250,"y":250},
     {"name":"Person 3","group":2,"x":250,"y":250},
-    {"name":"Person 4","group":1,"x":250,"y":250},
+    {"name":"Person 4","group":2,"x":250,"y":250},
     {"name":"Person 5","group":3,"x":250,"y":250},
-    {"name":"Person 6","group":2,"x":250,"y":250},
+    {"name":"Person 6","group":1,"x":250,"y":250},
     {"name":"Person 7","group":1,"x":250,"y":250},
     {"name":"Person 8","group":3,"x":250,"y":250},
     {"name":"Person 9","group":4,"x":250,"y":250},
     {"name":"Person 10","group":4,"x":250,"y":250},
-    {"name":"Person 11","group":4,"x":250,"y":250}
+    {"name":"Person 11","group":1,"x":250,"y":250}
   ],
   "links":[
     {"source":0,"target":1,"value":1},

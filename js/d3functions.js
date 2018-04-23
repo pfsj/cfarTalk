@@ -1,4 +1,57 @@
 
+/// MACRO GRAPH 2
+
+
+      var width2 = 500,
+          height2 = 500;
+
+      var color = d3.scale.category10();
+
+      var force2 = d3.layout.force()
+          .charge(-500)           //
+          .linkDistance(50)
+          .size([width2, height2]);
+      // setInterval(function(){force.alpha(0.25);},250); // Can make the force layout move
+
+      var svg2 = d3.select(".network2")
+          .attr("width", width2)
+          .attr("height", height2);
+
+      d3.json("data/toyErgmData2.json", function(error, graph2) {
+        if (error) throw error;
+
+        force2
+            .nodes(graph2.nodes)
+            .links(graph2.links)
+            .start();
+
+        var link2 = svg2.selectAll(".link")
+            .data(graph2.links)
+          .enter().append("line")
+            .attr("class", "link")
+            .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+        var node2 = svg2.selectAll(".node")
+            .data(graph2.nodes)
+          .enter().append("circle")
+            .attr("class", "node")
+            .style("fill", function(d) { return color(d.group); })
+            .call(force2.drag);
+
+        node2.append("title")
+            .text(function(d) { return d.name; });
+
+        force2.on("tick", function() {
+          link2.attr("x1", function(d) { return d.source.x; })
+              .attr("y1", function(d) { return d.source.y; })
+              .attr("x2", function(d) { return d.target.x; })
+              .attr("y2", function(d) { return d.target.y; });
+
+          node2.attr("cx", function(d) { return d.x; })
+              .attr("cy", function(d) { return d.y; });
+          node2.attr("r", function(d) { return d.nodeSize; });
+        });
+      });
 /* Create force network graph */
 
 			var width2 = 350,
@@ -190,6 +243,7 @@ function unorderedPairs (s) { // returns the list of all unordered pairs from s
           node4.attr("r",9);
         });
       });
+
 
 /* Degree Graph*/
 
@@ -670,3 +724,6 @@ function unorderedPairs (s) { // returns the list of all unordered pairs from s
           node9.attr("r", function(d) { return d.value; });
         });
       });
+
+
+
